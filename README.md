@@ -1,5 +1,9 @@
 # privacylib
 
+[![CI](https://github.com/jhonnybastoslopes-creator/privacylib/actions/workflows/ci.yml/badge.svg)](https://github.com/jhonnybastoslopes-creator/privacylib/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
+
 Biblioteca core unificada do **PrivacyBOT** — uma fachada única, estável e profissional
 que centraliza a infraestrutura compartilhada de um bot de Discord (disnake): dados,
 isolamento multi-servidor, erros, apresentação (UI), emojis, utilitários, controle de
