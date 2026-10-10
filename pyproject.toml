@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "privacylib"
+version = "0.1.0"
+description = "Biblioteca core unificada do PrivacyBOT (fachada de infraestrutura para bots disnake)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "jhonnybastoslopes-creator" }]
+keywords = ["discord", "disnake", "bot", "library", "infrastructure"]
+dependencies = [
+    "disnake",
+    "pymongo",
+    "aiohttp",
+]
+
+[project.urls]
+Homepage = "https://github.com/jhonnybastoslopes-creator/privacylib"
+Repository = "https://github.com/jhonnybastoslopes-creator/privacylib"
+
+[tool.setuptools.packages.find]
+include = ["privacylib*"]
